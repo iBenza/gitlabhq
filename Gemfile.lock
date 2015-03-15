@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/iBenza/devise-kerberos-authenticatable.git
+  revision: 8c7d427fe4ad9c0eb67688ff9db0834ea8cf5140
+  specs:
+    devise-kerberos-authenticatable (0.1.0)
+      devise
+      timfel-krb5-auth (~> 0.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -682,6 +690,7 @@ DEPENDENCIES
   default_value_for (~> 3.0.0)
   devise (= 3.2.4)
   devise-async (= 0.9.0)
+  devise-kerberos-authenticatable!
   diffy (~> 3.0.3)
   doorkeeper (= 2.1.0)
   dropzonejs-rails

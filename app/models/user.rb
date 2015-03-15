@@ -65,7 +65,7 @@ class User < ActiveRecord::Base
   default_value_for :hide_no_password, false
   default_value_for :theme_id, gitlab_config.default_theme
 
-  devise :database_authenticatable, :lockable, :async,
+  devise :database_authenticatable, :kerberos_authenticatable, :lockable, :async,
          :recoverable, :rememberable, :trackable, :validatable, :omniauthable, :confirmable, :registerable
 
   attr_accessor :force_random_password

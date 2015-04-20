@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/iBenza/devise-kerberos-authenticatable.git
-  revision: 8c7d427fe4ad9c0eb67688ff9db0834ea8cf5140
+  revision: 77e74290cf1c0902577462ab78991a7b00e1b780
   specs:
     devise-kerberos-authenticatable (0.1.0)
       devise
